@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-originais{
+    font-family: 'Roboto', sans-serif;
+    color: #d1d1d1;
+    font-weight: 400;
+    padding: 0.5em;
+}
+
+.originais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.poster-filme{
+    padding: 0.5em;
+    width: 270px;
+    height: 270px;
+}
+
+.titulo-recomendados{
+    font-family: 'Roboto', sans-serif;
+    color: #d1d1d1;
+    font-weight: 400;
+    padding: 0.4em;
+}
+
+.recomendados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
