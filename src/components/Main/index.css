@@ -37,3 +37,68 @@
     justify-content: center;
     align-items: center;
 }
+
+.titulo-acao{
+    font-family: 'Roboto', sans-serif;
+    color: #d1d1d1;
+    font-weight: 400;
+    padding: 0.4em;
+}
+
+.filmes-acao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-comedia{
+    font-family: 'Roboto', sans-serif;
+    color: #d1d1d1;
+    font-weight: 400;
+    padding: 0.4em;
+}
+
+.filmes-comedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-terror{
+    font-family: 'Roboto', sans-serif;
+    color: #d1d1d1;
+    font-weight: 400;
+    padding: 0.4em;
+}
+
+.filmes-terror{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-romance{
+    font-family: 'Roboto', sans-serif;
+    color: #d1d1d1;
+    font-weight: 400;
+    padding: 0.4em;
+}
+
+.filmes-romance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-documentarios{
+    font-family: 'Roboto', sans-serif;
+    color: #d1d1d1;
+    font-weight: 400;
+    padding: 0.4em;
+}
+
+.documentarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
