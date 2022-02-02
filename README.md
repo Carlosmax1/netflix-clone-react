@@ -3,7 +3,7 @@
 *Creatror*: Carlos 
 
 ## Intro
-
+Feito apenas para fins educacionais!
 
 ## Configuração das variáveis de ambientes
 ```
