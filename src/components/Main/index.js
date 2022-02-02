@@ -1,7 +1,9 @@
 import react from "react";
 import { useState, useEffect } from "react";
-import Movies from "../../movies";
+import Movies from '../../config/movies'
 import Cabecalho from "../Cabecalho";
+import Rodape from "../Rodape";
+import MsgErro from "../MsgErro";
 import './index.css';
 
 export default function Main() {
@@ -85,7 +87,7 @@ export default function Main() {
 							<img key={key} className="poster-filme" src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}></img>
 						)}
 					</> :
-						<div>oi2</div>}
+						<MsgErro/>}
 				</section>
 				<h1 className="titulo-recomendados">Recomendados para você</h1>
 				<section className="recomendados">
@@ -94,7 +96,7 @@ export default function Main() {
 							<img key={key} className="poster-filme" src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}></img>
 						)}
 					</> :
-						<div>oi2</div>}
+						<MsgErro/>}
 				</section>
 				<h1 className="titulo-acao">Ação</h1>
 				<section className="filmes-acao">
@@ -103,7 +105,7 @@ export default function Main() {
 							<img key={key} className="poster-filme" src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}></img>
 						)}
 					</> :
-						<div>oi2</div>}
+						<MsgErro/>}
 				</section>
 				<h1 className="titulo-comedia">Comédia</h1>
 				<section className="filmes-comedia">
@@ -112,7 +114,7 @@ export default function Main() {
 							<img key={key} className="poster-filme" src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}></img>
 						)}
 					</> :
-						<div>oi2</div>}
+						<MsgErro/>}
 				</section>
 				<h1 className="titulo-terror">Terror</h1>
 				<section className="filmes-terror">
@@ -121,7 +123,7 @@ export default function Main() {
 							<img key={key} className="poster-filme" src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}></img>
 						)}
 					</> :
-						<div>oi2</div>}
+						<MsgErro/>}
 				</section>
 				<h1 className="titulo-romance">Romance</h1>
 				<section className="filmes-romance">
@@ -130,7 +132,7 @@ export default function Main() {
 							<img key={key} className="poster-filme" src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}></img>
 						)}
 					</> :
-						<div>oi2</div>}
+						<MsgErro/>}
 				</section>
 				<h1 className="titulo-documentarios">Documentários</h1>
 				<section className="documentarios">
@@ -139,9 +141,10 @@ export default function Main() {
 							<img key={key} className="poster-filme" src={`https://image.tmdb.org/t/p/w300${item.poster_path}`}></img>
 						)}
 					</> :
-						<div>oi2</div>}
+						<MsgErro/>}
 				</section>
 			</main>
+			<Rodape/>
 		</>
 	)
 

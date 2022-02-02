@@ -9,33 +9,6 @@
     height: 90vh;
 }
 
-.menu{
-    display: flex;
-    width: 100%;
-    height: 50px;
-}
-
-.container-logo{
-    width: 100vw;
-    margin-left: 1.5em;
-    margin-top: 1em;
-}
-
-.logo{
-    width: 155px;
-    height: 47px;
-}
-
-.netflix-avatar-container{
-   margin-right: 1.5em;
-   margin-top: 1.5em;
-}
-
-.netflix-avatar{
-    width: 50px;
-    height: 50px;
-}
-
 .destaques{
     width: 100%;
     height: 100vh;
@@ -51,85 +24,4 @@
     width: inherit;
     height: inherit;
     background: linear-gradient(to right, #111 30%, transparent 70%);
-}
-
-.info-filmes{
-    margin-top: 3.5em;
-    margin-left: 1.4em;
-    display: flex;
-    flex-direction: column;
-}
-
-.pat{
-    margin: 1em 0;
-    display: flex;
-}
-
-.titulo-filme{
-    font-family: 'Roboto', sans-serif;
-    color: #f4f4f4;
-    font-size: 45pt;
-    font-weight: 700;
-}
-
-.pontucao-filme{
-    padding-right: 0.3em;
-    font-family: 'Roboto', sans-serif;
-    font-weight:bolder;
-    color: #48ca78;
-}
-
-.ano-filme{
-    padding-right: 0.3em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: white;
-}
-
-.temporadas{
-    padding-right: 0.3em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: white;
-}
-
-.descricao-filme{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: #5D5B5D;
-    width: 35%;
-}
-
-.generos{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: #5D5B5D;
-}
-
-.botoes{
-    margin: 1em 0;
-}
-
-.botao-assitir{
-    border: none;
-    border-radius: 7px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13.5pt;
-    font-weight: 700;
-    width: 154px;
-    padding: 0.7em;
-    background: #F4F4F4;
-}
-
-.botao-minhaLista{
-    background: #33323342;
-    border: none;
-    border-radius: 7px;
-    margin-left: 1em;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13.5pt;
-    color: white;
-    font-weight: 700;
-    width: 154px;
-    padding: 0.7em;
 }

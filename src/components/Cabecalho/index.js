@@ -1,7 +1,9 @@
 import react from "react";
 import './index.css'
-import Movies from "../../movies";
-import getMovieInfo from "../../tv_infos";
+import Movies from "../../config/movies";
+import getMovieInfo from "../../config/tv_infos";
+import Menu from "./Menu";
+import Destaque from "./Destaque";
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
@@ -49,7 +51,7 @@ export default function Cabecalho() {
     }
   }, [destaque])
 
-  // console.log(generos);
+  console.log(generos);
 
   return (
     <>
@@ -61,32 +63,13 @@ export default function Cabecalho() {
         }}>
           <div className="vertical">
             <div className="horizontal">
-              <div className="menu">
-                <div className="container-logo">
-                  <img className="logo" src='https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-5.png'></img>
-                </div>
-                <div className="netflix-avatar-container">
-                  <img className="netflix-avatar" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"></img>
-                </div>
-              </div>
-              <div className="info-filmes">
-                <div className="titulo-filme">{destaque.name}</div>
-                <div className="pat">
-                  <div className="pontucao-filme">{destaque.vote_average} pontos</div>
-                  <div className="ano-filme">{ano}</div>
-                  <div className="temporadas">{destaque.number_of_seasons} temporada(s)</div>
-                </div>
-                <div className="descricao-filme">{destaque.overview}</div>
-                <div className="botoes">
-                  <button className="botao-assitir"><FontAwesomeIcon icon={faPlay} size="xs"></FontAwesomeIcon> Assitir</button>
-                  <button className="botao-minhaLista">+ Minha lista</button>
-                </div>
-                <div className="generos">Gênero(s): {generos.join(', ')}</div>
-              </div>
+              <Menu />
+              <Destaque destaque={destaque} ano={ano} generos={generos}></Destaque>
             </div>
           </div>
         </header>
       )}
+
     </>
   )
 }

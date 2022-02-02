@@ -1,4 +1,4 @@
-import apiClient from "./api";
+import apiClient from "../config/http";
 
 const api_key = process.env.REACT_APP_API_KEY;
 

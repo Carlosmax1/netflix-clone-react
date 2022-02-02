@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.rodape{
+    margin: 1em;
+    text-align: center;
+}
+
+.rodape-texto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #6e6868
+}
+
+.rodape-texto a{
+    color: #6e6868;
+    text-decoration: none;
+}
