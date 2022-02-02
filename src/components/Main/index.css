@@ -23,6 +23,12 @@
     padding: 0.5em;
     width: 270px;
     height: 270px;
+    transition: all 0.5s;
+}
+
+.poster-filme:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
 }
 
 .titulo-recomendados{

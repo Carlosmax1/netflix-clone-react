@@ -64,6 +64,13 @@
     width: 154px;
     padding: 0.7em;
     background: #F4F4F4;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.botao-assitir:hover{
+    transition: all 0.5s;
+    background: #cccccc;
 }
 
 .botao-minhaLista{
@@ -76,5 +83,12 @@
     color: white;
     font-weight: 700;
     width: 154px;
+    cursor: pointer;
     padding: 0.7em;
+    transition: all 0.5s;
+}
+
+.botao-minhaLista:hover{
+    transition: all 0.5s;
+    background: #33323381;
 }

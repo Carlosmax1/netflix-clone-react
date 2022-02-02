@@ -51,7 +51,7 @@ export default function Cabecalho() {
     }
   }, [destaque])
 
-  console.log(generos);
+  // console.log(generos);
 
   return (
     <>
