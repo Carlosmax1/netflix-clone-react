@@ -10,6 +10,7 @@ const getMovies = async (url) => {
 }
 
 const Movies = async () => {
+
 	return [
 		{
 			slug: 'originais',
@@ -50,8 +51,14 @@ const Movies = async () => {
 			slug: 'documentario',
 			title: 'Documentários',
 			items: await getMovies('/discover/movie?with_genres=99&language=pt-BR')
-		}
+		},
+		{
+			slug: 'series',
+			title: 'Series',
+			items: await getMovies(`/tv/top_rated?language=pt-BR&page=1`)
+		},
 	];
+
 }
 
 export default Movies;
