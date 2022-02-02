@@ -15,8 +15,19 @@
     height: 47px;
 }
 
+.icones{
+    display: flex;
+    margin-top: 2.5em;
+    margin-right: 1em;
+}
+
+.icone{
+    color: #fdfdfd;
+    padding: 0 0.5em;
+}
+
 .netflix-avatar-container{
-   margin-right: 1.5em;
+   margin-right: 2em;
    margin-top: 1.5em;
 }
 
