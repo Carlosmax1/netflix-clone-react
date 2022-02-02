@@ -17,13 +17,20 @@
 
 .icones{
     display: flex;
-    margin-top: 2.5em;
+    margin-top: 2.2em;
     margin-right: 1em;
 }
 
 .icone{
+    height: 30px;
+    cursor: pointer;
     color: #fdfdfd;
     padding: 0 0.5em;
+}
+
+.icone:hover{
+    border-radius: 500px;
+    background: #fdfdfd25;
 }
 
 .netflix-avatar-container{
