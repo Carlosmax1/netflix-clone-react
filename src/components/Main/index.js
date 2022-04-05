@@ -15,7 +15,7 @@ export default function Main() {
 	const [comedia, setComedia] = useState(null); // Comedia 
 	const [terror, setTerror] = useState(null); // Terror
 	const [romance, setRomance] = useState(null); // Romance
-	const [documentario, setDocumentario] = useState(null); // Documentarios
+	const [documentario, setDocumentario] = useState(null); 
 
 	useEffect(() => {
 		const moveis = async () => {
